@@ -1,17 +1,19 @@
+import bannerImg from "../assets/image/banner.png"
+
 const Hero = () => {
   return (
-    <section>
-      <div className="bg-gray-100">
-        <div className="flex items-center justify-between mx-25">
+    <section className="bg-[#F2F0F1] w-full h-auto">
+      <div className="container-hero flex items-center">
+        <div className="flex justify-between ml-25">
           <div className="flex flex-col flex-1">
-            <div className="title pt-55">
+            <div className="title pt-27.5">
               <h1 className="font-bold text-6xl">
                 FIND CLOTHES THAT MATCHES YOUR STYLE
               </h1>
             </div>
 
             <div className="sub-title py-8 pr-8">
-              <p className="font-light text-sm">
+              <p className="font-light text-[16px]">
                 Browse through our diverse range of meticulously crafted
                 garments, designed to bring out your individuality and cater to
                 your sense of style.
@@ -24,7 +26,7 @@ const Hero = () => {
               </button>
             </div>
 
-            <div className="flex divide-x divide-gray-300 pb-55">
+            <div className="flex divide-x divide-gray-300 pb-27.5">
               <div className="pr-8">
                 <span className="font-medium text-4xl">200+</span>
                 <p className="font-light text-sm">International Brands</p>
@@ -42,8 +44,8 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="flex-1 bg-blue-400">
-            <h1>choBen</h1>
+          <div className="flex-1">
+            <img className="h-full" src={bannerImg} alt="banner-image" />
           </div>
         </div>
       </div>

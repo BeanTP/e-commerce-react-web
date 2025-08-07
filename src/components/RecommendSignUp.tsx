@@ -7,7 +7,7 @@ const RecommendSignUp = () => {
   if (!show) return null;
 
   return (
-    <div className="flex items-center justify-between h-9 bg-black text-white text-sm font-light">
+    <div className="flex items-center justify-between h-auto bg-black text-white text-sm font-light">
       <p className="mx-auto py-2.5">
         Sign up and get 20% off to your first order.{" "}
         <span className="font-normal underline decoration-0">
