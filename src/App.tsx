@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import RecommendSignUp from "./components/RecommendSignUp";
+import BestSellerProduct from "./sections/BestSellerProduct";
 import Hero from "./sections/Hero";
 import LogoBrand from "./sections/LogoBrand";
 import NewArrivals from "./sections/NewArrivals";
@@ -17,6 +18,7 @@ const App = () => {
         <Hero />
         <LogoBrand />
         <NewArrivals />
+        <BestSellerProduct />
       </div>
     </main>
   );
