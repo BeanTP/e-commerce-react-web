@@ -3,7 +3,7 @@ import sampleStyle2 from "../assets/image/sample-style-2.png";
 import sampleStyle3 from "../assets/image/sample-style-3.png";
 import sampleStyle4 from "../assets/image/sample-style-4.png";
 
-const BrownByStyle = () => {
+const BrowseByStyle = () => {
 	return (
     <section className="h-[866px] w-full px-25">
       <div className="flex flex-col items-center bg-[#F0F0F0] w-auto h-full rounded-4xl">
@@ -55,4 +55,4 @@ const BrownByStyle = () => {
   );
 }
 
-export default BrownByStyle;
+export default BrowseByStyle;
