@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import RecommendSignUp from "./components/RecommendSignUp";
 import BestSellerProduct from "./sections/BestSellerProduct";
@@ -22,6 +23,8 @@ const App = () => {
         <BestSellerProduct />
         <BrowseByStyle />
       </div>
+
+      <Footer />
     </main>
   );
 };
